@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/SharedFolder/SingleCycleComputer/TestBench_Proc_isim_beh.exe" -prj "/home/ise/SharedFolder/SingleCycleComputer/TestBench_Proc_beh.prj" "work.TestBench_Proc" "work.glbl" 

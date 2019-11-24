@@ -1,0 +1,3 @@
+vhdtdtfi -lib work /home/012/v/vx/vxn170230/Desktop/Micro/SingleCycleComputer/PC.v -lang verilog -prj SingleCycleComputer -o ProgramCounter.spl -module ProgramCounter -template /proj/cad/xilinx_14.7/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ProgramCounter.spl /home/012/v/vx/vxn170230/Desktop/Micro/SingleCycleComputer/ProgramCounter.sym 
+vhdtdtfi -lang verilog -prj SingleCycleComputer -o /home/012/v/vx/vxn170230/Desktop/Micro/SingleCycleComputer/ProgramCounter.tfi -lib work /home/012/v/vx/vxn170230/Desktop/Micro/SingleCycleComputer//PC.v -module ProgramCounter -template /proj/cad/xilinx_14.7/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

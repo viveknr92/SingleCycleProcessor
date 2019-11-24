@@ -1,0 +1,43 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/SharedFolder/SingleCycleComputer/TestBench_Proc_isim_beh.exe -prj /home/ise/SharedFolder/SingleCycleComputer/TestBench_Proc_beh.prj work.TestBench_Proc work.glbl 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/SharedFolder/SingleCycleComputer/WriteBackMux.v" into library work
+Analyzing Verilog file "/home/ise/SharedFolder/SingleCycleComputer/Start.v" into library work
+Analyzing Verilog file "/home/ise/SharedFolder/SingleCycleComputer/SignExtend.v" into library work
+Analyzing Verilog file "/home/ise/SharedFolder/SingleCycleComputer/RegFile.v" into library work
+Analyzing Verilog file "/home/ise/SharedFolder/SingleCycleComputer/mux_5bit.v" into library work
+Analyzing Verilog file "/home/ise/SharedFolder/SingleCycleComputer/Inst_Mem.v" into library work
+Analyzing Verilog file "/home/ise/SharedFolder/SingleCycleComputer/DataMemory.v" into library work
+Analyzing Verilog file "/home/ise/SharedFolder/SingleCycleComputer/Control.v" into library work
+Analyzing Verilog file "/home/ise/SharedFolder/SingleCycleComputer/BranchUnit.v" into library work
+Analyzing Verilog file "/home/ise/SharedFolder/SingleCycleComputer/ALUmux.v" into library work
+Analyzing Verilog file "/home/ise/SharedFolder/SingleCycleComputer/ALU.v" into library work
+Analyzing Verilog file "/home/ise/SharedFolder/SingleCycleComputer/Processor.v" into library work
+Analyzing Verilog file "/home/ise/SharedFolder/SingleCycleComputer/Testbench_Proc.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95064 KB
+Fuse CPU Usage: 1010 ms
+Compiling module Start
+Compiling module SignExtend
+Compiling module BranchUnit
+Compiling module Inst_Mem
+Compiling module Control
+Compiling module mux_5bit
+Compiling module RegFile
+Compiling module ALUmux
+Compiling module ALU
+Compiling module DataMemory
+Compiling module WriteBackMux
+Compiling module Processor
+Compiling module TestBench_Proc
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 14 Verilog Units
+Built simulation executable /home/ise/SharedFolder/SingleCycleComputer/TestBench_Proc_isim_beh.exe
+Fuse Memory Usage: 98200 KB
+Fuse CPU Usage: 1090 ms
+GCC CPU Usage: 640 ms

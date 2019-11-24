@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/012/v/vx/vxn170230/Desktop/Micro/SingleCycleComputer/TestBench_Proc.xst" -ofn "/home/012/v/vx/vxn170230/Desktop/Micro/SingleCycleComputer/TestBench_Proc.syr" 

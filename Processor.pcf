@@ -1,0 +1,104 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Thu Nov 21 21:25:43 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Led<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "Led<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "Led<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "Led<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "Led<7>" LOCATE = SITE "T11" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "sw<3>" LOCATE = SITE "M8" LEVEL 1;
+COMP "sw<4>" LOCATE = SITE "N8" LEVEL 1;
+COMP "sw<5>" LOCATE = SITE "U8" LEVEL 1;
+COMP "sw<6>" LOCATE = SITE "V8" LEVEL 1;
+COMP "sw<7>" LOCATE = SITE "T5" LEVEL 1;
+COMP "Led<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "Led<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "Led<2>" LOCATE = SITE "U15" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "start/reset" BEL "BranchUnit/PC_1" BEL
+        "BranchUnit/PC_2" BEL "BranchUnit/PC_3" BEL "BranchUnit/PC_4" BEL
+        "BranchUnit/PC_5" BEL "BranchUnit/PC_6" BEL "BranchUnit/PC_7" BEL
+        "BranchUnit/PC_8" BEL "BranchUnit/PC_9" BEL "BranchUnit/PC_10" BEL
+        "BranchUnit/PC_11" BEL "BranchUnit/PC_12" BEL "BranchUnit/PC_13" BEL
+        "BranchUnit/PC_14" BEL "BranchUnit/PC_15" BEL "start/reset_1" BEL
+        "BranchUnit/PC_3_1" BEL "BranchUnit/PC_1_1" BEL "BranchUnit/PC_2_1"
+        BEL "BranchUnit/PC_4_1" BEL "clk_BUFGP/BUFG" BEL
+        "RegFile/Mram_Register131/DP" BEL "RegFile/Mram_Register131/SP" BEL
+        "RegFile/Mram_Register132/DP" BEL "RegFile/Mram_Register132/SP" BEL
+        "RegFile/Mram_Register133/DP" BEL "RegFile/Mram_Register133/SP" BEL
+        "RegFile/Mram_Register134/DP" BEL "RegFile/Mram_Register134/SP" BEL
+        "RegFile/Mram_Register81/DP" BEL "RegFile/Mram_Register81/SP" BEL
+        "RegFile/Mram_Register82/DP" BEL "RegFile/Mram_Register82/SP" BEL
+        "RegFile/Mram_Register83/DP" BEL "RegFile/Mram_Register83/SP" BEL
+        "RegFile/Mram_Register84/DP" BEL "RegFile/Mram_Register84/SP" BEL
+        "datamemory/Mram_RAM1" BEL "datamemory/Mram_RAM10" BEL
+        "datamemory/Mram_RAM11" BEL "datamemory/Mram_RAM12" BEL
+        "datamemory/Mram_RAM13" BEL "datamemory/Mram_RAM14" BEL
+        "datamemory/Mram_RAM15" BEL "datamemory/Mram_RAM16" BEL
+        "datamemory/Mram_RAM2" BEL "datamemory/Mram_RAM3" BEL
+        "datamemory/Mram_RAM4" BEL "datamemory/Mram_RAM5" BEL
+        "datamemory/Mram_RAM6" BEL "datamemory/Mram_RAM7" BEL
+        "datamemory/Mram_RAM8" BEL "datamemory/Mram_RAM9" BEL
+        "RegFile/Mram_Register11_RAMA_D1" BEL "RegFile/Mram_Register11_RAMA"
+        BEL "RegFile/Mram_Register11_RAMB_D1" BEL
+        "RegFile/Mram_Register11_RAMB" BEL "RegFile/Mram_Register11_RAMC_D1"
+        BEL "RegFile/Mram_Register11_RAMC" BEL
+        "RegFile/Mram_Register11_RAMD_D1" BEL "RegFile/Mram_Register11_RAMD"
+        BEL "RegFile/Mram_Register12_RAMA_D1" BEL
+        "RegFile/Mram_Register12_RAMA" BEL "RegFile/Mram_Register12_RAMB_D1"
+        BEL "RegFile/Mram_Register12_RAMB" BEL
+        "RegFile/Mram_Register12_RAMC_D1" BEL "RegFile/Mram_Register12_RAMC"
+        BEL "RegFile/Mram_Register12_RAMD_D1" BEL
+        "RegFile/Mram_Register12_RAMD" BEL "RegFile/Mram_Register21_RAMA_D1"
+        BEL "RegFile/Mram_Register21_RAMA" BEL
+        "RegFile/Mram_Register21_RAMB_D1" BEL "RegFile/Mram_Register21_RAMB"
+        BEL "RegFile/Mram_Register21_RAMC_D1" BEL
+        "RegFile/Mram_Register21_RAMC" BEL "RegFile/Mram_Register21_RAMD_D1"
+        BEL "RegFile/Mram_Register21_RAMD" BEL
+        "RegFile/Mram_Register22_RAMA_D1" BEL "RegFile/Mram_Register22_RAMA"
+        BEL "RegFile/Mram_Register22_RAMB" BEL "RegFile/Mram_Register22_RAMC"
+        BEL "RegFile/Mram_Register22_RAMD_D1" BEL
+        "RegFile/Mram_Register22_RAMD" BEL "RegFile/Mram_Register31_RAMA_D1"
+        BEL "RegFile/Mram_Register31_RAMA" BEL
+        "RegFile/Mram_Register31_RAMB_D1" BEL "RegFile/Mram_Register31_RAMB"
+        BEL "RegFile/Mram_Register31_RAMC_D1" BEL
+        "RegFile/Mram_Register31_RAMC" BEL "RegFile/Mram_Register31_RAMD_D1"
+        BEL "RegFile/Mram_Register31_RAMD" BEL
+        "RegFile/Mram_Register32_RAMA_D1" BEL "RegFile/Mram_Register32_RAMA"
+        BEL "RegFile/Mram_Register32_RAMB" BEL "RegFile/Mram_Register32_RAMC"
+        BEL "RegFile/Mram_Register32_RAMD_D1" BEL
+        "RegFile/Mram_Register32_RAMD" BEL "RegFile/Mram_Register41_RAMA_D1"
+        BEL "RegFile/Mram_Register41_RAMA" BEL
+        "RegFile/Mram_Register41_RAMB_D1" BEL "RegFile/Mram_Register41_RAMB"
+        BEL "RegFile/Mram_Register41_RAMC_D1" BEL
+        "RegFile/Mram_Register41_RAMC" BEL "RegFile/Mram_Register41_RAMD_D1"
+        BEL "RegFile/Mram_Register41_RAMD" BEL
+        "RegFile/Mram_Register42_RAMA_D1" BEL "RegFile/Mram_Register42_RAMA"
+        BEL "RegFile/Mram_Register42_RAMB" BEL "RegFile/Mram_Register42_RAMC"
+        BEL "RegFile/Mram_Register42_RAMD_D1" BEL
+        "RegFile/Mram_Register42_RAMD" BEL "RegFile/Mram_Register51_RAMA_D1"
+        BEL "RegFile/Mram_Register51_RAMA" BEL
+        "RegFile/Mram_Register51_RAMB_D1" BEL "RegFile/Mram_Register51_RAMB"
+        BEL "RegFile/Mram_Register51_RAMC_D1" BEL
+        "RegFile/Mram_Register51_RAMC" BEL "RegFile/Mram_Register51_RAMD_D1"
+        BEL "RegFile/Mram_Register51_RAMD" BEL
+        "RegFile/Mram_Register52_RAMA_D1" BEL "RegFile/Mram_Register52_RAMA"
+        BEL "RegFile/Mram_Register52_RAMB" BEL "RegFile/Mram_Register52_RAMC"
+        BEL "RegFile/Mram_Register52_RAMD_D1" BEL
+        "RegFile/Mram_Register52_RAMD" BEL "RegFile/Mram_Register6_RAMA_D1"
+        BEL "RegFile/Mram_Register6_RAMA" BEL "RegFile/Mram_Register6_RAMB_D1"
+        BEL "RegFile/Mram_Register6_RAMB" BEL "RegFile/Mram_Register6_RAMC_D1"
+        BEL "RegFile/Mram_Register6_RAMC" BEL "RegFile/Mram_Register6_RAMD_D1"
+        BEL "RegFile/Mram_Register6_RAMD" BEL "RegFile/Mram_Register7_RAMA_D1"
+        BEL "RegFile/Mram_Register7_RAMA" BEL "RegFile/Mram_Register7_RAMB_D1"
+        BEL "RegFile/Mram_Register7_RAMB" BEL "RegFile/Mram_Register7_RAMC_D1"
+        BEL "RegFile/Mram_Register7_RAMC" BEL "RegFile/Mram_Register7_RAMD_D1"
+        BEL "RegFile/Mram_Register7_RAMD";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

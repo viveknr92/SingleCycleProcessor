@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/SharedFolder/SingleCycleComputer/TestBench_Proc_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="TestBench_Proc" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/TestBench_Proc/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/instData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instData[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/ALUop" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUop[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUop[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/regWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regWrite</obj_property>
+      <obj_property name="ObjectShortName">regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/regDest" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regDest</obj_property>
+      <obj_property name="ObjectShortName">regDest</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/ALUsrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUsrc</obj_property>
+      <obj_property name="ObjectShortName">ALUsrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/regDestmuxOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regDestmuxOut[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regDestmuxOut[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/Data1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Data1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/Data2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Data2[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/ALU_OUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALU_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_OUT[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/MuxToAluData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MuxToAluData[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MuxToAluData[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/Z" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/V" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">V</obj_property>
+      <obj_property name="ObjectShortName">V</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/C" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">C</obj_property>
+      <obj_property name="ObjectShortName">C</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/DATA_WIDTH" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/INST_WIDTH" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">INST_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INST_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/REG_WIDTH" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">REG_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/ALU_OP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALU_OP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_OP[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/uut/RegFile/mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem[15:0,15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[15:0,15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Proc/uut/datamemory/RAM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RAM[0:255,16:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM[0:255,16:0]</obj_property>
+   </wvobject>
+</wave_config>
